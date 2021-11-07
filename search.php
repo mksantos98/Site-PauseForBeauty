@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Search</title>
+    <title>Pause For Beauty</title>
     <meta charset="utf-8">
 	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Your description">
     <meta name="keywords" content="Your keywords">
     <meta name="author" content="Your name">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="images/404.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/404.png" type="image/x-icon" />
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
     <link rel="stylesheet" href="css/responsive.css" type="text/css" media="screen">
     <link rel="stylesheet" href="css/camera.css" type="text/css" media="screen"> 
@@ -107,7 +107,7 @@
 							<a href="#"><img src="images/social_1.png" alt="" width="29" height="30" border="0" /></a>
 							<a href="#"><img src="images/social_2.png" alt="" width="29" height="30" border="0" /></a>
 							<a href="#"><img src="images/social_3.png" alt="" width="29" height="30" border="0" /></a>
-							<a href="#"><img src="images/social_4.png" alt="" width="29" height="30" border="0" /></a>
+							<!--a href="#"><img src="images/social_4.png" alt="" width="29" height="30" border="0" /></a-->
 							<a href="#"><img src="images/social_5.png" alt="" width="29" height="30" border="0" /></a>
 						</div>
 						<!--==============================Search=========================-->
@@ -134,13 +134,7 @@
                        <a href="index.html"><img src="images/logo.png" alt=""></a>					
                     </div>
                 </div>
-          </div>
-			
-        	<div class="span7">
-				<p class="phone">
-					Have questons? <span>Call: +1 800 123 4567</span>
-				</p>
-			</div>   
+          </div>  
       </div>   
     </div>
     
@@ -155,54 +149,54 @@
                       <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse_">MENU</a>                                                   
                       <div class="nav-collapse nav-collapse_ collapse">
                           <ul class="nav sf-menu">
-                            <li>
-								<a href="index.html">
-									Home
-								</a>
-							</li>
-							<li  class="sub-menu ">
-								<a href="index-1.html">
-									About us
-								</a>
-								<ul>
-									<li>
-										<a href="index-1.html">
-											Testimonials
-										</a>
-									</li>
-									<li>
-										<a href="index-1.html">
-											Our Partners
-										</a>
-									</li>
-									<li>
-										<a href="404.html">
-											Page not found (404)
-										</a>
-									</li>
-								</ul>
-							</li>
-							<li>
-								<a href="index-2.html">
-									Services
-								</a>
-								
-							</li>
-							<li >
-								<a href="index-3.html">
-									Therapies
-								</a>
-							</li>
-							<li >
-								<a href="index-4.html">
-									Products
-								</a>
-							</li>
-							<li >
-								<a href="index-5.html">
-									Contact Us
-								</a>
-							</li>
+                            <li class="active">
+															<a href="index.html">
+																Inicio
+															</a>
+														</li>
+														<li  class="sub-menu">
+															<a href="sobrenos.html">
+																Sobre Nós
+															</a>
+															<ul>
+																<li>
+																	<a href="sobrenos.html">
+																		Satisfação
+																	</a>
+																</li>
+																<li>
+																	<a href="sobrenos.html">
+																		Nossos Parceiros
+																	</a>
+																</li>
+																<li>
+																	<a href="404.html">
+																		Escolha
+																	</a>
+																</li>
+															</ul>
+														</li>
+														<li>
+															<a href="servicos.html">
+																Serviços
+															</a>
+															
+														</li>
+														<li >
+															<a href="terapia.html">
+																Terapias
+															</a>
+														</li>
+														<li >
+															<a href="produtos.html">
+																Produtos
+															</a>
+														</li>
+														<li >
+															<a href="faleconosco.html">
+																Fale Conosco
+															</a>
+														</li>
                           </ul>
                       </div>
                   </div>
@@ -299,7 +293,7 @@
 			<div class="clearfix ">
 				
 				<div class="span12">
-					<h1>Search result:</h1>
+					<h1>Resultados de Pesquisa:</h1>
 					
 						<div id="search-results">
 
@@ -320,39 +314,39 @@
 	<div class="container">
 		<div class="row">	
 			<div class="span3 footer-logo">
-				SPA SALON
+				Pause For Beauty
 			</div>
 			<div class="span9">
 				
 				<ul>
 					<li>
 						<a href="index.html">
-							Home
+							Inicio
 						</a>
 					</li>
 					<li>
-						<a href="index-1.html">
-							About us
+						<a href="sobrenos.html">
+							Sobre Nós
 						</a>
 					</li>
 					<li>
-						<a href="index-2.html">
-							Services
+						<a href="servicos.html">
+							Serviços
 						</a>
 					</li>
 					<li>
-						<a href="index-3.html">
-							Products
+						<a href="terapia.html">
+							Terapias
 						</a>
 					</li>
 					<li>
-						<a href="index-4.html">
-							Partners
+						<a href="produtos.html">
+							Produtos
 						</a>
 					</li>
 					<li>
-						<a href="index-5.html">
-							Contact Us
+						<a href="faleconosco.html">
+							Fale Conosco
 						</a>
 					</li>
 				</ul>
@@ -369,13 +363,12 @@
 		<div class="row">	
 			<div class="span12">
 				
-				Spa Salon  &copy; 2013. All rights reserved.&nbsp;&nbsp;/&nbsp;&nbsp;<a href="index-6.html">Privacy Policy</a>
+				&nbsp;&nbsp;<a href="privacidade.html">Politica de Privacidade</a> Pause For Beauty  &copy; 2021. Todos os direitos reservados.&nbsp;&nbsp;
 
 			</div>
 		</div>
 	</div>
 </div>
-
 
 </div><!-- inner -->
 </div><!-- main -->

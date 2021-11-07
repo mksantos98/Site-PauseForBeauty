@@ -15,10 +15,10 @@ if($post)
 include 'functions.php';
 
 $name = stripslashes($_POST['name']);
-$subject = stripslashes($_POST['subject']);
+$subject = stripslashes($_POST['enviar']);
 
 $email = trim($_POST['email']);
-$subject = stripslashes($_POST['subject']);
+$subject = stripslashes($_POST['enviar']);
 $message = "Site visitor information:
 
 Name: ".$_POST['name']
@@ -27,7 +27,7 @@ Name: ".$_POST['name']
 E-mail Address: ".$_POST['email']
 ."
 
-Subject: ".$_POST['subject']
+Subject: ".$_POST['enviar']
 ."
 
 
