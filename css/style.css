@@ -85,13 +85,13 @@ p.phone span{
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  background: #42124C;  
+  background: #000;  
 	margin-bottom:10px
 }
 
 .dd_menu li:hover{
   line-height: 75px;
-  background: #42125C;  
+  background: #000;  
 }
 
 .dd_menu li a{
@@ -533,7 +533,7 @@ input:focus {
 /**/
 /* slider */
 div.slider {
-	background:#6B256F; /* FUNDO SLIDE */
+	background:#4f4f4f; /* FUNDO SLIDE */
 	width:100%;
 	padding-top:20px;
 	padding-bottom:20px
