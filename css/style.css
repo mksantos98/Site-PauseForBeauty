@@ -823,8 +823,9 @@ div.divider{}
 /* Copyright */
 
 .copyright {
-  background: #42124c url(../images/bg_copyright.PNG) 0 0 repeat; /* FUNDO COPY RODAPÉ */
-	height:70px;
+  background: #42124c url(../images/bg_copyright.png) 0 0 repeat; /* FUNDO COPY RODAPÉ */
+	
+ 	height:70px;
 	line-height:68px;
 	color:#FFFAF0; /* COR DA FONTE DE LETRA*/
 	text-indent:50px;
