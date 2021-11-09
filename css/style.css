@@ -58,7 +58,7 @@ p.phone span{
 
 #content strong{
 	display:block;
-	color:#42124c;
+	color:#000;
 	text-transform:uppercase;
 	font-size:14px;
 	padding-bottom:6px
@@ -67,7 +67,7 @@ p.phone span{
 
 .more {
 	display:block;
-	color:#42124c;
+	color:#000;
 	font-size:12px;
 	text-transform:uppercase;
   font-family: 'Open Sans';
@@ -91,7 +91,7 @@ p.phone span{
 
 .dd_menu li:hover{
   line-height: 75px;
-  background: #000;  
+  background: #4F4F4F;  
 }
 
 .dd_menu li a{
@@ -111,7 +111,7 @@ p.phone span{
 h1 {
   font-size: 30px;
   letter-spacing: 0px;
-  color:#42124c;
+  color:#000;
   text-align:left;
   font-weight:400;
 	line-height:30px;
@@ -127,7 +127,7 @@ h1 {
 h2 {
   font-size: 30px;
   letter-spacing: 0px;
-  color:#42124c;
+  color:#000;
   text-align:left;
   font-weight:400;
 	line-height:30px;
@@ -145,7 +145,7 @@ h3 {
 h4 {
   font-size: 30px;
   letter-spacing: 0px;
-  color:#42124c;
+  color:#000;
   text-align:left;
   font-weight:400;
 	line-height:30px;
@@ -179,10 +179,10 @@ img.img-radius {
   text-decoration: underline;
 }
 a.underline {
-  color: #42124c;
+  color: #000;
 }
 a.underline:hover {
-  color: #42124c;
+  color: #000;
   text-decoration: underline;
 }
 
@@ -273,13 +273,13 @@ ul.list li a:hover{
 /* buttons*/
 
 .btn_ {
-background: #42124c;
-background: -moz-linear-gradient(top,  rgba(239,117,94,1) 0%, rgba(210,103,83,1) 100%);
-background: -webkit-gradient(linear, left top, left bottom, color-stop 0%,#6B256F, color-stop 100%,#6B256F);
-background: -webkit-linear-gradient(top,  #6B256F 0%,#6B256F 100%);
-background: -o-linear-gradient(top,  #6B256F 0%,#6B256F 100%);
-background: -ms-linear-gradient(top,  #6B256F 0%,#6B256F 100%);
-background: linear-gradient(to bottom,  #6B256F 0%,#6B256F 100%);
+background: #000;
+background: -moz-linear-gradient(top,  #000 0%, #000 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop 0%,#4F4F4F, color-stop 100%,#4F4F4F);
+background: -webkit-linear-gradient(top,  #4F4F4F 0%,#4F4F4F 100%);
+background: -o-linear-gradient(top,  #4F4F4F 0%,#4F4F4F 100%);
+background: -ms-linear-gradient(top,  #4F4F4F 0%,#4F4F4F 100%);
+background: linear-gradient(to bottom,  #4F4F4F 0%,#4F4F4F 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef755e', endColorstr='#d26753',GradientType=0 );
 
   border: none;
@@ -306,7 +306,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef755e', end
 }
 
 .btn_:hover {
-  background: #42124c;
+  background: #000;
   color: #ffffff;
 }
 /**/
@@ -447,7 +447,7 @@ input:focus {
 /* SELETOR DE BOTÃO MENU */
 .nav-collapse_ .nav > li.active > a, 
 .nav-collapse_ .nav > li.active > a:hover {  
-  background: url(../images/menu_hover2.PNG) right 0 repeat-x;
+  background: url(../images/menu_hover.png) right 0 repeat-x;
 }
 
 
@@ -486,7 +486,7 @@ input:focus {
   zoom: 1;
   z-index: 109;
   margin: 0;
-  background: #6B256F;  /*COR DO SUB MENU*/
+  background: #696969;  /*COR DO SUB MENU*/
 }
 .nav-collapse_ .nav > li li.sub-menu > a:before {
   content: " ";
@@ -509,13 +509,13 @@ input:focus {
 }
 
 .nav-collapse_ .nav ul li +li {
-  border-top:1px #42125C solid; /* DIVISAO SUB MENU */
+  border-top:1px #4f4f4f solid; /* DIVISAO SUB MENU */
 }
 .nav-collapse_ .nav > li > ul li > a:hover,
 .nav-collapse_ .nav > li > ul li.sfHover > a {
   text-decoration: none;
   color: #fff;  
-	background:#1c1c1c; /* SUB MENU SELECIONADO */
+	background:#808080; /* SUB MENU SELECIONADO */
 }
 .nav-collapse_ .nav ul ul {
   position: absolute;
@@ -612,7 +612,7 @@ ul li{
 
 }
 .imgarea:hover img{
-  border:1px #f55f3d solid;
+  border:1px #4F4F4F solid;
 
 }
 .magnifier {
@@ -747,7 +747,7 @@ ul li{
 
 #content #filters li a{
   text-decoration: none;
-  color: #42125C!important;
+  color: #000!important;
   font-size: 14px;
   background:none;
 	color:#0c7cbc;
@@ -758,7 +758,7 @@ ul li{
 
 }
 #content #filters li a:hover{
-  color: #42125C;
+  color: #000;
   text-decoration: underline;
 }
 
@@ -788,7 +788,7 @@ div.divider{}
 
 /* Bottom menu */
 .bg_center_footer{
-	background:#6B256F; /* COR RODAPÉ PRIMARIO */
+	background:#4F4F4F; /* COR RODAPÉ PRIMARIO */
 	height:70px
 }
 
@@ -889,13 +889,13 @@ address span {
   padding-top: 1px;
 }
 .contact-form input {
-  border: #6B256F 1px solid;
+  border: #4F4F4F 1px solid;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
-  -moz-box-shadow: inset  0px 0px 5px  #42125C;
-  -webkit-box-shadow: inset  0px 0px 5px   #42125C;
-  box-shadow: inset  0px 0px 5px   #42125C;
+  -moz-box-shadow: inset  0px 0px 5px  #000;
+  -webkit-box-shadow: inset  0px 0px 5px   #000;
+  box-shadow: inset  0px 0px 5px   #000;
   
   line-height: 22px;
   width: 300px;
@@ -920,7 +920,7 @@ address span {
   position: relative;
   font-size: 11px;
   line-height: 14px;
-  color: #42125C;
+  color: #000;
   float: left;
   margin: 2px 0 4px 10px;
   min-width: 160px;
@@ -930,14 +930,14 @@ address span {
   padding-bottom: 5px;
 }
 .contact-form textarea {
-  border: #6B256F 1px solid;
+  border: #4F4F4F 1px solid;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
   
-  -moz-box-shadow: inset  0px 0px 5px   #42125C;
-  -webkit-box-shadow: inset  0px 0px 5px   #42125C;
-  box-shadow: inset  0px 0px 5px   #42125C;
+  -moz-box-shadow: inset  0px 0px 5px   #000;
+  -webkit-box-shadow: inset  0px 0px 5px   #000;
+  box-shadow: inset  0px 0px 5px   #000;
   
   line-height: 22px;
   width: 300px;
@@ -976,7 +976,7 @@ address span {
 .submit:hover { }
 
 .notification_error {
-	color:#42125C;
+	color:#000;
 }
 /**/
 
@@ -1083,11 +1083,11 @@ div.carousel-box ul li small {
 }
 
 div.carousel-box ul li:hover small {
-	background:#6B256F; /* FUNDO CARROSEL QUE CONTEM NUMEROS */ 
+	background:#000; /* FUNDO CARROSEL QUE CONTEM NUMEROS */ 
 }
 
 div.carousel-box ul li h4 {
-	color:#8a2a8f; /* COR DA FONTE*/
+	color:#000; /* COR DA FONTE*/
 	font-size:35px;
 	font-family: 'Parisienne', cursive;
 	text-align:left;
@@ -1097,7 +1097,7 @@ div.carousel-box ul li h4 {
 
 
 div.carousel-box ul li:hover h4{
-	color:#42124c; /* COR DA FONTE SELECIONADA */
+	color:#4F4F4F; /* COR DA FONTE SELECIONADA */
 }
 
 div.carousel-box ul li a {
@@ -1389,7 +1389,7 @@ div.carousel-box ul li p {
 	}
 
 	#nav_section {
-		background:#42125C;
+		background:#000;
 	}
 	
 	#nav_section .nav-collapse .nav > li {
@@ -1521,8 +1521,8 @@ div.carousel-box ul li p {
 
 
 
-::selection{ background:#42125C!important; color:#fff}
-::-moz-selection{ background:#42125C!important; color:#fff}
+::selection{ background:#000 !important; color:#fff}
+::-moz-selection{ background:#000 !important; color:#fff}
 
 @media screen and (-webkit-min-device-pixel-ratio:0) /*----- Safari ------*/
 {  
